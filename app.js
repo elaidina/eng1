@@ -48,6 +48,54 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       name: '6',
       img: 'Jsem doma.'
+    },
+    {
+      name: '7',
+      img: 'Where are you going?'
+    },
+    {
+      name: '7',
+      img: 'Kam jdeš?'
+    },
+    {
+      name: '8',
+      img: 'I am so excited!'
+    },
+    {
+      name: '8',
+      img: 'Jsem tak nadšená!'
+    },
+    {
+      name: '9',
+      img: 'How old are you?'
+    },
+    {
+      name: '9',
+      img: 'Kolik ti je let?'
+    },
+    {
+      name: '10',
+      img: 'Je mi 7 let.'
+    },
+    {
+      name: '10',
+      img: 'I am 7 years old.'
+    },
+    {
+      name: '11',
+      img: 'Máš sestru nebo bratra?'
+    },
+    {
+      name: '11',
+      img: 'Have you got a sister or brother?'
+    },
+    {
+      name: '12',
+      img: 'How is the weather today?'
+    },
+    {
+      name: '12',
+      img: 'Jaké je dnes počasí?'
     }
   ]
 
@@ -133,7 +181,9 @@ audio1.play();
     cardsChosenId = []
     resultDisplay.textContent = cardsWon.length
     if  (cardsWon.length === cardArray.length/2) {
-      resultDisplay.textContent = ' Congratulations! You found them all!'
+      resultDisplay.innerHTML = " <h1>Congratulations! You found them all!</h1><h2>Level 1 completed!</h2><a href=´´> Continue to Level 2</a>";
+
+
       var audio3 = new Audio ("images/end.mp3")
 audio3.play();
     }

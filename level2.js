@@ -3,99 +3,99 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'What´s your name?'
+      img: 'No, I haven´t'
     },
     {
       name: '1',
-      img: 'Jak se jmenuješ?'
+      img: 'Ne, nemám.'
     },
     {
       name: '2',
-      img: 'How are you?'
+      img: 'The sun is shining and it´s warm.'
     },
     {
       name: '2',
-      img: 'Jak se máš?'
+      img: 'Svítí slunko a je teplo.'
     },
     {
       name: '3',
-      img: 'I´m fine.'
+      img: 'What would you like to do?'
     },
     {
       name: '3',
-      img: 'Mám se fajn.'
+      img: 'Co bys rád dělal?'
     },
     {
       name: '4',
-      img: 'What´s this?'
+      img: 'I would like to go out.'
     },
     {
       name: '4',
-      img: 'Co je tohle?'
+      img: 'Ráda bych šla ven.'
     },
     {
       name: '5',
-      img: 'Where are you?'
+      img: 'Excuse me, who are you?'
     },
     {
       name: '5',
-      img: 'Kde jsi?'
+      img: 'Promiň, kdo jsi ty?'
     },
     {
       name: '6',
-      img: 'I am at home.'
+      img: 'Hello, my name is Tom.'
     },
     {
       name: '6',
-      img: 'Jsem doma.'
+      img: 'Ahoj, jmenuji se Tom.'
     },
     {
       name: '7',
-      img: 'Where are you going?'
+      img: 'Is Tom a good friend?'
     },
     {
       name: '7',
-      img: 'Kam jdeš?'
+      img: 'Je Tom dobrý kamarád?'
     },
     {
       name: '8',
-      img: 'I am so excited!'
+      img: 'Ne. Není.'
     },
     {
       name: '8',
-      img: 'Jsem tak nadšená!'
+      img: 'No. He´s not.'
     },
     {
       name: '9',
-      img: 'How old are you?'
+      img: 'That tall boy is my friend.'
     },
     {
       name: '9',
-      img: 'Kolik ti je let?'
+      img: 'Ten vysoký kluk je můj kamarád.'
     },
     {
       name: '10',
-      img: 'Je mi 7 let.'
+      img: 'Come here and sit down.'
     },
     {
       name: '10',
-      img: 'I am 7 years old.'
+      img: 'Pojď sem a sedni si.'
     },
     {
       name: '11',
-      img: 'Máš sestru nebo bratra?'
+      img: 'Michelle, lend me your pen, please.'
     },
     {
       name: '11',
-      img: 'Have you got a sister or brother?'
+      img: 'Miško, půjč mi prosím tvoje pero.'
     },
     {
       name: '12',
-      img: 'How is the weather today?'
+      img: 'Let´s play with a ball.'
     },
     {
       name: '12',
-      img: 'Jaké je dnes počasí?'
+      img: 'Pojďme si zahrát s míčem.'
     }
   ]
 
@@ -179,9 +179,9 @@ audio1.play();
     }
     cardsChosen = []
     cardsChosenId = []
-    resultDisplay.textContent = cardsWon.length
+    resultDisplay.textContent = cardsWon.length 
     if  (cardsWon.length === cardArray.length/2) {
-      resultDisplay.innerHTML = ' <h1>Congratulations! You found them all!</h1><h2>Level 1 completed!</h2><a href="/level2.html"> Continue to Level 2</a>'
+      resultDisplay.innerHTML = ' <h1>Congratulations! You found them all!</h1><h2>Level 2 completed!</h2><a href="/level3.html"> Continue to Level 3</a>'
 
 
       var audio3 = new Audio ("images/end.mp3")

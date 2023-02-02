@@ -60,5 +60,5 @@ h5 {
 }
 
 .green {
-  background-color: rgb(221, 150, 186);
+  background-image: linear-gradient( 135deg, #69FF97 10%, #00E4FF 100%);
 }

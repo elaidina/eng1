@@ -3,99 +3,99 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'What´s your name?'
+      img: 'The bottle is empty.'
     },
     {
       name: '1',
-      img: 'Jak se jmenuješ?'
+      img: 'Ta flaška je prázdná.'
     },
     {
       name: '2',
-      img: 'How are you?'
+      img: 'Do you have any bottle?'
     },
     {
       name: '2',
-      img: 'Jak se máš?'
+      img: 'Máš nějakou flašku?'
     },
     {
       name: '3',
-      img: 'I´m fine.'
+      img: 'No, I don´t have any bottle.'
     },
     {
       name: '3',
-      img: 'Mám se fajn.'
+      img: 'Ne, nemám žádnou flašku.'
     },
     {
       name: '4',
-      img: 'What´s this?'
+      img: 'I have to go home.'
     },
     {
       name: '4',
-      img: 'Co je tohle?'
+      img: 'Musím jít domů.'
     },
     {
       name: '5',
-      img: 'Where are you?'
+      img: 'Why do you have to go?'
     },
     {
       name: '5',
-      img: 'Kde jsi?'
+      img: 'Proč musíš jít?'
     },
     {
       name: '6',
-      img: 'I am at home.'
+      img: 'I´m very tired.'
     },
     {
       name: '6',
-      img: 'Jsem doma.'
+      img: 'Jsem velmi unavená.'
     },
     {
       name: '7',
-      img: 'Where are you going?'
+      img: 'Where is your car?'
     },
     {
       name: '7',
-      img: 'Kam jdeš?'
+      img: 'Kde je tvoje auto?'
     },
     {
       name: '8',
-      img: 'I am so excited!'
+      img: 'I don´t remember.'
     },
     {
       name: '8',
-      img: 'Jsem tak nadšená!'
+      img: 'Nepamatuju si.'
     },
     {
       name: '9',
-      img: 'How old are you?'
+      img: 'I´ve got a present for you.'
     },
     {
       name: '9',
-      img: 'Kolik ti je let?'
+      img: 'Mám pro tebe dárek.'
     },
     {
       name: '10',
-      img: 'Je mi 7 let.'
+      img: 'Chci ho vidět.'
     },
     {
       name: '10',
-      img: 'I am 7 years old.'
+      img: 'I want to see it.'
     },
     {
       name: '11',
-      img: 'Máš sestru nebo bratra?'
+      img: 'Je velký a krásný.'
     },
     {
       name: '11',
-      img: 'Have you got a sister or brother?'
+      img: 'It ´s big and beautiful.'
     },
     {
       name: '12',
-      img: 'How is the weather today?'
+      img: 'Give me the box.'
     },
     {
       name: '12',
-      img: 'Jaké je dnes počasí?'
+      img: 'Dej mi tu krabici.'
     }
   ]
 
@@ -181,7 +181,7 @@ audio1.play();
     cardsChosenId = []
     resultDisplay.textContent = cardsWon.length
     if  (cardsWon.length === cardArray.length/2) {
-      resultDisplay.innerHTML = " <h1>Congratulations! You found them all!</h1><h2>Level 1 completed!</h2><a href=´´> Continue to Level 2</a>";
+      resultDisplay.innerHTML = " <h1>Congratulations! You found them all!</h1><h2>Level 1 completed!</h2><a href=´https://elaidina.github.io/eng1/level4.html´> Continue to Level 2</a>";
 
 
       var audio3 = new Audio ("images/end.mp3")

@@ -3,99 +3,99 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'What´s your name?'
+      img: 'How can I help you?'
     },
     {
       name: '1',
-      img: 'Jak se jmenuješ?'
+      img: 'Jak ti můžu pomoct?'
     },
     {
       name: '2',
-      img: 'How are you?'
+      img: 'Can you have a look on the table?'
     },
     {
       name: '2',
-      img: 'Jak se máš?'
+      img: 'Můžeš se podívat na stůl?'
     },
     {
       name: '3',
-      img: 'I´m fine.'
+      img: 'It was under the table.'
     },
     {
       name: '3',
-      img: 'Mám se fajn.'
+      img: 'Bylo to pod stolem.'
     },
     {
       name: '4',
-      img: 'What´s this?'
+      img: 'I thought it was on the cupboard or near the chair.'
     },
     {
       name: '4',
-      img: 'Co je tohle?'
+      img: 'Myslela jsem, že to bylo na skřínce nebo u židle.'
     },
     {
       name: '5',
-      img: 'Where are you?'
+      img: 'I´m building a lego car.'
     },
     {
       name: '5',
-      img: 'Kde jsi?'
+      img: 'Stavím legové auto.'
     },
     {
       name: '6',
-      img: 'I am at home.'
+      img: 'Look at this small picture.'
     },
     {
       name: '6',
-      img: 'Jsem doma.'
+      img: 'Podívej se na tenhle malý obrázek.'
     },
     {
       name: '7',
-      img: 'Where are you going?'
+      img: 'There are many strawberries, cherries, raspberries and grapes.'
     },
     {
       name: '7',
-      img: 'Kam jdeš?'
+      img: 'Je tam hodně jahod, třešní, malin a hrozna.'
     },
     {
       name: '8',
-      img: 'I am so excited!'
+      img: 'The pears and apricots are not ripe yet.'
     },
     {
       name: '8',
-      img: 'Jsem tak nadšená!'
+      img: 'Hrušky a meruňky ještě nejsou zralé.'
     },
     {
       name: '9',
-      img: 'How old are you?'
+      img: 'Here´s your plate, fork, cup and spoon.'
     },
     {
       name: '9',
-      img: 'Kolik ti je let?'
+      img: 'Zde je tvůj talíř, vidlička, šálek a lžíce.'
     },
     {
       name: '10',
-      img: 'Je mi 7 let.'
+      img: 'Is this your bag or not?'
     },
     {
       name: '10',
-      img: 'I am 7 years old.'
+      img: 'Je tohle tvoje taška nebo ne?'
     },
     {
       name: '11',
-      img: 'Máš sestru nebo bratra?'
+      img: 'My doll has got big blue eyes and long hair.'
     },
     {
       name: '11',
-      img: 'Have you got a sister or brother?'
+      img: 'Moje panenka má velké modré oči a dlouhé vlasy.'
     },
     {
       name: '12',
-      img: 'How is the weather today?'
+      img: 'Let´s take scissors and cut out a heart.'
     },
     {
       name: '12',
-      img: 'Jaké je dnes počasí?'
+      img: 'Pojďme si vzít nůžky a vystřihneme srdíčko.'
     }
   ]
 

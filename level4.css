@@ -5,7 +5,7 @@ body {
  justify-content: space-around;
  background-color: aquamarine;
  font-family: Arial, Helvetica, sans-serif;
- background-image: linear-gradient( 135deg, #3B2667 10%, #BC78EC 100%);
+ background-image: url(images/bg5.png);
 }
 
 .grid {

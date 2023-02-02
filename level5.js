@@ -3,99 +3,99 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'What´s your name?'
+      img: 'Go to the door.'
     },
     {
       name: '1',
-      img: 'Jak se jmenuješ?'
+      img: 'Jdi ke dvěřím.'
     },
     {
       name: '2',
-      img: 'How are you?'
+      img: 'Can you shut the door?'
     },
     {
       name: '2',
-      img: 'Jak se máš?'
+      img: 'Můžeš zavřít dveře?'
     },
     {
       name: '3',
-      img: 'I´m fine.'
+      img: 'What are you doing right now?'
     },
     {
       name: '3',
-      img: 'Mám se fajn.'
+      img: 'Co děláš právě teď?'
     },
     {
       name: '4',
-      img: 'What´s this?'
+      img: 'I´m drawing a flower.'
     },
     {
       name: '4',
-      img: 'Co je tohle?'
+      img: 'Kreslím květinu.'
     },
     {
       name: '5',
-      img: 'Where are you?'
+      img: 'I am painting with my new water colours.'
     },
     {
       name: '5',
-      img: 'Kde jsi?'
+      img: 'Maluji s mými novými vodovými barvami.'
     },
     {
       name: '6',
-      img: 'I am at home.'
+      img: 'You have to eat your breakfast.'
     },
     {
       name: '6',
-      img: 'Jsem doma.'
+      img: 'Musíš sníst svou snídani.'
     },
     {
       name: '7',
-      img: 'Where are you going?'
+      img: 'What do we have for breakfast?'
     },
     {
       name: '7',
-      img: 'Kam jdeš?'
+      img: 'Co máme k snídani?'
     },
     {
       name: '8',
-      img: 'I am so excited!'
+      img: 'There is milk, bread and butter.'
     },
     {
       name: '8',
-      img: 'Jsem tak nadšená!'
+      img: 'Je mléko, chléb a máslo.'
     },
     {
       name: '9',
-      img: 'How old are you?'
+      img: 'I don´t want to drink milk.'
     },
     {
       name: '9',
-      img: 'Kolik ti je let?'
+      img: 'Nechci pít mléko.'
     },
     {
       name: '10',
-      img: 'Je mi 7 let.'
+      img: 'What would you like to drink?'
     },
     {
       name: '10',
-      img: 'I am 7 years old.'
+      img: 'Co bys chtěl pít?'
     },
     {
       name: '11',
-      img: 'Máš sestru nebo bratra?'
+      img: 'I am not thirsty anymore.'
     },
     {
       name: '11',
-      img: 'Have you got a sister or brother?'
+      img: 'Už nemám žízeň.'
     },
     {
       name: '12',
-      img: 'How is the weather today?'
+      img: 'I´m looking for my wallet.'
     },
     {
       name: '12',
-      img: 'Jaké je dnes počasí?'
+      img: 'Hledám moji peněženku.'
     }
   ]
 

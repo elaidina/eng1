@@ -6,8 +6,7 @@ body {
  background-color: aquamarine;
  font-family: Arial, Helvetica, sans-serif;
 
- background: rgb(195,34,34);
- background: linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(146,45,253,1) 100%) ;
+ background-image: url(images/bg4.png);
 }
 
 .grid {

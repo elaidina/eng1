@@ -3,99 +3,99 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'How can I help you?'
+      img: 'I want to become a teacher.'
     },
     {
       name: '1',
-      img: 'Jak ti můžu pomoct?'
+      img: 'Chci se stát učitelem.'
     },
     {
       name: '2',
-      img: 'Can you have a look on the table?'
+      img: 'I want to teach children.'
     },
     {
       name: '2',
-      img: 'Můžeš se podívat na stůl?'
+      img: 'Chci učit děti.'
     },
     {
       name: '3',
-      img: 'It was under the table.'
+      img: 'She wants to be a doctor.'
     },
     {
       name: '3',
-      img: 'Bylo to pod stolem.'
+      img: 'Ona chce být lékařkou.'
     },
     {
       name: '4',
-      img: 'I thought it was on the cupboard or near the chair.'
+      img: 'Her dream is to cure people.'
     },
     {
       name: '4',
-      img: 'Myslela jsem, že to bylo na skřínce nebo u židle.'
+      img: 'Jejím snem je léčit lidi.'
     },
     {
       name: '5',
-      img: 'I´m building a lego car.'
+      img: 'Can you drive a car?'
     },
     {
       name: '5',
-      img: 'Stavím legové auto.'
+      img: 'Umíš řídit auto?'
     },
     {
       name: '6',
-      img: 'Look at this small picture.'
+      img: 'Yes, I am a good driver.'
     },
     {
       name: '6',
-      img: 'Podívej se na tenhle malý obrázek.'
+      img: 'Ano, jsem dobrý řidič .'
     },
     {
       name: '7',
-      img: 'There are many strawberries, cherries, raspberries and grapes.'
+      img: 'How many cars have you got?'
     },
     {
       name: '7',
-      img: 'Je tam hodně jahod, třešní, malin a hrozna.'
+      img: 'Kolik máš aut?'
     },
     {
       name: '8',
-      img: 'The pears and apricots are not ripe yet.'
+      img: 'I have two cars and three bicycles.'
     },
     {
       name: '8',
-      img: 'Hrušky a meruňky ještě nejsou zralé.'
+      img: 'Mám dvě auta a tři kola.'
     },
     {
       name: '9',
-      img: 'Here´s your plate, fork, cup and spoon.'
+      img: 'Come and play cards with me.'
     },
     {
       name: '9',
-      img: 'Zde je tvůj talíř, vidlička, šálek a lžíce.'
+      img: 'Pojď si se mnou zahrát karty.'
     },
     {
       name: '10',
-      img: 'Is this your bag or not?'
+      img: 'I would rather play basketball.'
     },
     {
       name: '10',
-      img: 'Je tohle tvoje taška nebo ne?'
+      img: 'Raději bych hrál basketbal.'
     },
     {
       name: '11',
-      img: 'My doll has got big blue eyes and long hair.'
+      img: 'Are you good at playing football?'
     },
     {
       name: '11',
-      img: 'Moje panenka má velké modré oči a dlouhé vlasy.'
+      img: 'Jsi dobrý v hraní fotbalu?'
     },
     {
       name: '12',
-      img: 'Let´s take scissors and cut out a heart.'
+      img: 'Not at all.'
     },
     {
       name: '12',
-      img: 'Pojďme si vzít nůžky a vystřihneme srdíčko.'
+      img: 'Vůbec ne.'
     }
   ]
 
@@ -181,7 +181,7 @@ audio1.play();
     cardsChosenId = []
     resultDisplay.textContent = cardsWon.length
     if  (cardsWon.length === cardArray.length/2) {
-      resultDisplay.innerHTML = " <h1>Congratulations! You found them all!</h1><h2>Level 1 completed!</h2><a href=´´> Continue to Level 2</a>";
+      resultDisplay.innerHTML = " <h1>Congratulations! You found them all!</h1><h2>Level 8 completed!</h2><a href='https://elaidina.github.io/eng1/level9.html'> Continue to Level 9</a>";
 
 
       var audio3 = new Audio ("images/end.mp3")

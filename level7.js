@@ -3,99 +3,99 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'How can I help you?'
+      img: 'Stick the eyes, the nose and the mouth on the mask.'
     },
     {
       name: '1',
-      img: 'Jak ti můžu pomoct?'
+      img: 'Nalepte oči, nos a ústa na masku.'
     },
     {
       name: '2',
-      img: 'Can you have a look on the table?'
+      img: 'My dress is too short and wide.'
     },
     {
       name: '2',
-      img: 'Můžeš se podívat na stůl?'
+      img: 'Moje šaty jsou příliš krátké a široké.'
     },
     {
       name: '3',
-      img: 'It was under the table.'
+      img: 'I´m standing in the middle of a circle.'
     },
     {
       name: '3',
-      img: 'Bylo to pod stolem.'
+      img: 'Stojím uprostřed kruhu.'
     },
     {
       name: '4',
-      img: 'I thought it was on the cupboard or near the chair.'
+      img: 'Put your shoes on.'
     },
     {
       name: '4',
-      img: 'Myslela jsem, že to bylo na skřínce nebo u židle.'
+      img: 'Obuj si boty.'
     },
     {
       name: '5',
-      img: 'I´m building a lego car.'
+      img: 'Take care of you.'
     },
     {
       name: '5',
-      img: 'Stavím legové auto.'
+      img: 'Starej se o sebe.'
     },
     {
       name: '6',
-      img: 'Look at this small picture.'
+      img: 'Do you live in a town or a village?'
     },
     {
       name: '6',
-      img: 'Podívej se na tenhle malý obrázek.'
+      img: 'Bydlíš ve městě nebo na vesnici?'
     },
     {
       name: '7',
-      img: 'There are many strawberries, cherries, raspberries and grapes.'
+      img: 'What can you see?'
     },
     {
       name: '7',
-      img: 'Je tam hodně jahod, třešní, malin a hrozna.'
+      img: 'Co vidíš?'
     },
     {
       name: '8',
-      img: 'The pears and apricots are not ripe yet.'
+      img: 'I can see a duckling, some chicks, a dog and a cat.'
     },
     {
       name: '8',
-      img: 'Hrušky a meruňky ještě nejsou zralé.'
+      img: 'Vidím káčátko, nějaká kuřátka, psa a kočku.'
     },
     {
       name: '9',
-      img: 'Here´s your plate, fork, cup and spoon.'
+      img: 'What colour is the cat?'
     },
     {
       name: '9',
-      img: 'Zde je tvůj talíř, vidlička, šálek a lžíce.'
+      img: 'Jakou barvu má ta kočka?'
     },
     {
       name: '10',
-      img: 'Is this your bag or not?'
+      img: 'The cat is black.'
     },
     {
       name: '10',
-      img: 'Je tohle tvoje taška nebo ne?'
+      img: 'Ta kočka je černá.'
     },
     {
       name: '11',
-      img: 'My doll has got big blue eyes and long hair.'
+      img: 'I like chocolate ice-cream.'
     },
     {
       name: '11',
-      img: 'Moje panenka má velké modré oči a dlouhé vlasy.'
+      img: 'Mám rád čokoládovou zmrzlinu.'
     },
     {
       name: '12',
-      img: 'Let´s take scissors and cut out a heart.'
+      img: 'I like listening to stories.'
     },
     {
       name: '12',
-      img: 'Pojďme si vzít nůžky a vystřihneme srdíčko.'
+      img: 'Rád poslouchám příběhy.'
     }
   ]
 

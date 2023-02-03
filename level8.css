@@ -3,7 +3,7 @@ body {
  flex-direction: column;
  align-items: center;
  justify-content: space-around;
- background-image: url(images/bg6.jpg);
+ background-image: url(images/bg3.png);
  font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -19,7 +19,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  background-color: rgba(247, 234, 217, 0.384);
+  background-color: rgb(217, 247, 247);
  padding: 1rem;
 
   width: 200px;
@@ -29,17 +29,17 @@ body {
   margin: .1rem;
 
 
- /* From https://css.glass */
-background: rgba(255, 255, 255, 0.589);
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.35);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(4.4px);
--webkit-backdrop-filter: blur(4.4px);
-border: 1px solid rgba(255, 255, 255, 0.47);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .box:hover {
-box-shadow: 4px 4px 4px 1px rgba(17, 17, 17, 0.767);
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.164);
  
 
  
@@ -60,5 +60,7 @@ h5 {
 }
 
 .green {
-  background-image: linear-gradient( 135deg, #F6D242 10%, #FF52E5 100%);
+  background-color: #FAD961;
+background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+
 }

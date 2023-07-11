@@ -148,10 +148,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const optionOneId = cardsChosenId[0]
     const optionTwoId = cardsChosenId[1]
     
-    if(optionOneId == optionTwoId) {
+     if(optionOneId == optionTwoId) {
       cards[optionOneId].setAttribute('src', 'images/blank.png')
       cards[optionTwoId].setAttribute('src', 'images/blank.png')
 
+   
+
+cards[optionOneId].parentElement.classList.remove("green")
       
 
       alert('You have clicked the same image!')
